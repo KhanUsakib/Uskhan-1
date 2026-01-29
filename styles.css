@@ -48,7 +48,7 @@ nav .btn{
 .banner {
   width: 100%;
   min-height: 655px;
-  background: url(../assets/hero-bg.png) no-repeat center center;
+  background: url(./assets/hero-bg.png) no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -235,7 +235,7 @@ cursor: pointer;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
   }
  .banner.btn-1.btn-2:hover {
-     transform: translateY(-8px);
+    transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 .brain .brain-content{
