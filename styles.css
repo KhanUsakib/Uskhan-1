@@ -48,8 +48,10 @@ nav .btn{
 }
 .banner {
   width: 100%;
-  min-height: 655px;
+  height: 674px;
+  /*min-height: 664px;*/
   background: url(./assets/hero-bg.png) no-repeat center center;
+
   background-size: cover;
   display: flex;
   align-items: center;
