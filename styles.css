@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -243,18 +244,12 @@ cursor: pointer;
   justify-content: space-around;
   padding: 120px;
   margin: 120px 120px 120px 120px ;
-  gap: 40px;
+  gap: 60px;
   flex-direction: row;
   align-items: center;
-  border: 1px solid red;
   background: rgba(255, 255, 255, 1);
 }
-.brain-content .b-img{
-border-radius: 12px;
-}
-.b-img{
-border-radius: 12px;
-}
+
 .brain-part h5{
 color:#30B868; 
 font-style: Medium;
@@ -288,12 +283,18 @@ text-align: left;
 .info-card ul{
 list-style: none;
 display: flex;
-align-items: center;
-text-decoration: none;
+align-items: flex-start;
 flex-direction: row;
 justify-content: flex-start;
 gap: 6px;
 }
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
 .info .info-card img{
   width: 20px;
   height: 20px;
@@ -308,17 +309,16 @@ gap: 6px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 120px;
     gap: 40px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(247, 246, 242, 1);
+    margin: 0px 120px 120px;
 }
 .last .part-content{
 gap: 24;
 padding: 80px 40px 80px 40px;
-
 }
 .part-content h1{
-color: var(--Style, rgba(0, 25, 49, 1));
+color:rgba(0, 25, 49, 1);
 font-style: Bold;
 font-size: 40px;
 font-weight: 700;
@@ -328,7 +328,7 @@ text-align: center;
 text-transform: capitalize;
 }
 .part-content p{
-color: var(--#627382, rgba(98, 115, 130, 1));
+color:#627382, rgba(98, 115, 130, 1);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -346,12 +346,15 @@ border-radius: 4px;
 box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 background: rgba(70, 145, 101, 1);
 color: #FFFFFF;
-justify-content: center;
 gap: 10px;
+cursor: pointer;
 }
 .btn-sign{
-    display: flex;
     justify-content: center;
+    display: flex;
+   
+    gap: 6px;
+    margin: 20px 0 ;
 }
 .piont {
     color: #627382;
